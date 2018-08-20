@@ -3,6 +3,7 @@ layout: post
 title: "특정 단말에서 layout view measure 이슈가 있었을 때 처리방법" 
 date:   2017-08-29 15:30:00 +0900
 categories: android
+comments: true
 ---
 보통 안드로이드 개발을 할 시에 개발자 혼자서 레이아웃과 비지니스코드 둘다 개발을 합니다.
 
