@@ -18,16 +18,18 @@ email: apogenes@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   공부를 해보자.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://apogenes.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: apogenes
 github_username:  apogenes
+facebook_username: apogenes
 disqus_shortname: apogenes
 
 # Build settings
 markdown: kramdown
-theme: minima
+theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
