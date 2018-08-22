@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "특정 단말에서 layout view measure 이슈가 있었을 때 처리방법" 
+title: "Android 특정 단말에서 layout view measure 이슈가 있었을 때 처리방법" 
 date:   2017-08-29 15:30:00 +0900
 categories: android
 comments: true
