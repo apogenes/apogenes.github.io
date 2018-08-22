@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Android Dialog 영역 외에 터치 시 이벤트 동작" 
+title: "[Android] Dialog 영역 외에 터치 시 이벤트 동작" 
 date:   2014-04-14 20:23:00 +0900
 categories: android
 comments: true
