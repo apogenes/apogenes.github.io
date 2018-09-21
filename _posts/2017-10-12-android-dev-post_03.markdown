@@ -12,7 +12,7 @@ comments: true
 
 그래서 자바랑 코틀린 두 개를 비교해보자.
 
-#### 자바
+#### Java
 {% highlight java %}
 public enum AnimalType {
     DOG, CAT, COW, PIG;
@@ -28,7 +28,7 @@ public enum AnimalType {
 }
 {% endhighlight %}  
 
-#### 코틀린
+#### Kotlin
 {% highlight java %}
 enum class AnimalType {
     DOG, CAT, COW, PIG
