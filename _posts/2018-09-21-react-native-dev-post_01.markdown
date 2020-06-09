@@ -46,12 +46,10 @@ SpoqaHanSansBold.ttf
 ```
 
 확인해보니 이유인 즉슨, iOS 는 폰트의 속성에 정의되어있는 이름을 인식하는데 반해, Android 의 경우 asset 폴더에 들어가있는 폰트 파일의 이름을 사용한다는 차이점이 있었다.<br>
-그래서 해결한 방법은 react-native link 이후에 안드로이드에서 직접 파일명을 아래와 같이 변경해주었다.
+그래서 해결한 방법은 react-native link 이후에 안드로이드 폴더에서 직접 파일명을 변경해주었다.
 
 ```
+경로: ${WORK_HOME}/android/app/src/main/assets/fonts/ 에서 아래와 같이 변경
 SpoqaHanSansRegular.ttf -> SpoqaHanSans.ttf
 SpoqaHanSansBold.ttf -> SpoqaHanSans_bold.ttf
 ```
-
-참고로 spoqa 폰트와 디폴트 폰트를 비교하려면 제일 빠른 방법은 숫자 `1` 을 써서 숫자 하단에 가로줄이 있으면 spoqa 라고 한다.
-

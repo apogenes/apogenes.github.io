@@ -40,6 +40,3 @@ enum class AnimalType {
     }
 }
 {% endhighlight %}
-
-하지만 요즘 React 를 사용중인데 이게 없어서 고통 받는 중이다..
-
